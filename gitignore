@@ -1,0 +1,44 @@
+# Edge Impulse
+*.eim
+*.zip
+build/
+
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+
+# Arduino IDE
+.arduino15/
+libraries/
+*.bak
+
+# Edge Impulse exported library (tell users to export their own)
+arduino/aedes_classifier/src/edge-impulse-sdk/
+arduino/aedes_classifier/src/tflite-model/
+arduino/aedes_classifier/src/model-parameters/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
